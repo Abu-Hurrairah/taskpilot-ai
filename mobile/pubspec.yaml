@@ -1,0 +1,18 @@
+name: taskpilot_ai
+description: Turn messy goals into a practical daily action plan.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.3.0
+  shared_preferences: ^2.3.5
+  purchases_flutter: ^10.10.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
